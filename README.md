@@ -1,6 +1,7 @@
 # Hero Component – Venture Boost 3.0  
 
-![image](https://github.com/user-attachments/assets/8a06c6ff-83e1-48fa-9b3a-5f71693c92e4)
+![image](https://github.com/user-attachments/assets/b450e7d5-5c69-4c4b-a4a7-c43535115a98)
+![image](https://github.com/user-attachments/assets/6babf4a3-1f08-4010-aef9-576de6f40b06)
 
 
 ## Description  
