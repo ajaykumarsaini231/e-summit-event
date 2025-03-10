@@ -10,15 +10,17 @@ function Hero() {
       {" "}
       <div className={`${styles.container} aline-item-center`}>
         <div className={styles.pictuter}>
-          <div style={{ backgroundColor: "rgb(136, 133, 179)" }}>
-            <img
+          <div style={{ backgroundColor: "rgb" }}>
+           <a href="https://ecell.iitp.ac.in/"> <img
               src="/ecell_transparent_black.png"
               className="card-img-top"
               alt="..."
-            />
+            /></a>
           </div>
-          <div style={{ backgroundColor: "rgb(136, 133, 179)" }}>
-            <img src="/Incubation.png" className="card-img-top" alt="..." />
+          <div style={{ backgroundColor: "r" }}>
+            <a href="https://iciitp.com/">
+              <img src="/Incubation.png" className="card-img-top" alt="..." />
+            </a>
           </div>
         </div>
         <div className={`${styles.container} text-white text-center p-5`}>
@@ -28,8 +30,8 @@ function Hero() {
           <p className=" fs-5  fw-bold">
           <p className="mt-3 fs-5 fw-bold">
   🚀 Organized in collaboration with{" "}
-  <span className="text-success">Incubation Center IIT Patna</span> &{" "}
-  <span className="text-success">E-Cell IIT Patna</span>
+  <a href="https://iciitp.com/" className="text-success">Incubation Center IIT Patna</a> &{" "}
+  <a href="https://ecell.iitp.ac.in/" className="text-success">E-Cell IIT Patna</a>
 </p>
 
           </p>
@@ -106,6 +108,15 @@ function Hero() {
                   style={{ width: "267px" }}
                 >
                   📌 Session Registration
+                </button>
+              </a>
+              <a
+                href="/STARTUP_EXPO,.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-success px-4 py-2 fw-bold" style={{ width: "267px" }}>
+                  🚀 Visit Startup Expo
                 </button>
               </a>
             </div>
