@@ -1,8 +1,8 @@
 .container{
    width: 100vw;
-   height: 100vh;
+   /* height: 100vh; */
    background-color: rgb(17, 15, 15);
-   background-image: url("/backgroundy.png");
+   /* background-image: url("/backgroundy.png"); */
    background-size: 100%;
     /* background-repeat: no-repeat; */
     padding-block: 20px;
@@ -16,18 +16,37 @@
 
 .pictuter{
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
     align-items: center;
     /* margin: auto; */
-    gap: 66px;    
+    gap: 66px;  
+    width: 90%;  
 }
 
+.pictuter > div  {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.button_div{
+    display: flex !important;
+    gap: 40px;
+    /* flex-direction: column; */
+}
+
+
 @media screen and (max-width:700px) {
-    .pictuter{
-        flex-direction: column;
-    }
+   
     .container{
         background-repeat: repeat-y;
         height: auto;
+    }
+    .button_div{
+        /* display: flex !important; */
+        gap: 30px;
+        flex-direction: column;
     }
 }
