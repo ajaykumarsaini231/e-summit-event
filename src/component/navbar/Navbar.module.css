@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .logo_image {
+    height: 40px; /* Adjust logo size */
+  }
+  
+  .logo_text {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #007BFF; /* Light blue color */
+  }
+  
+  .nav_link {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  .nav_link:hover {
+    color: #000; /* Darker color on hover */
+  }
+  
+  .navbar_nav .nav_link {
+    margin-left: 20px; /* Spacing between links */
+  }
+  
