@@ -111,7 +111,7 @@ function Hero() {
                 </button>
               </a>
               <a
-                href="/STARTUP_EXPO,.pdf"
+                href="/STARTUP_EXPO.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
